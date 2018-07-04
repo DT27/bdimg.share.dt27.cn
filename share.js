@@ -798,7 +798,8 @@ window._bd_share_main
     window._bd_share_main.n1 = (new Date).getTime(),
     t.domready(function () {
       window._bd_share_main.n2 = (new Date).getTime() + 1e3,
-      _bd_share_main.init(),
+      _bd_share_main.init()
+      /**
       setTimeout(function () {
         window
           ._bd_share_main
@@ -808,7 +809,7 @@ window._bd_share_main
             e.back(),
             e.duration()
           })
-      }, 3e3)
+      }, 3e3) */
     })
   }),
 !window._bd_share_is_recently_loaded && window
@@ -910,12 +911,13 @@ window._bd_share_main
           default:
             u(e, r)
         }
+        /**
         window
           ._bd_share_main
           .F
           .use("trans/logger", function (t) {
             t.commit(e, r)
-          })
+          }) */
       },
       u = function (e, t) {
         var n = r.jumpUrl;
@@ -949,7 +951,7 @@ window._bd_share_main
             var r = t.T;
             r.browser.ie
               ? (window.clipboardData.setData("text", document.title + " " + (e.bdUrl || n.getPageUrl())), alert("\u6807\u9898\u548c\u94fe\u63a5\u590d\u5236\u6210\u529f\uff0c\u60a8\u53ef\u4ee5" +
-                  "63a8\u8350\u7ed9QQ/MSN\u4e0a\u7684\u597d\u53cb\u4e86\uff01"))
+                  "\u63a8\u8350\u7ed9QQ/MSN\u4e0a\u7684\u597d\u53cb\u4e86\uff01"))
               : window.prompt("\u60a8\u4f7f\u7528\u7684\u662f\u975eIE\u6838\u5fc3\u6d4f\u89c8\u5668\uff0c\u8bf7" +
                   "\u6309\u4e0b Ctrl+C \u590d\u5236\u4ee3\u7801\u5230\u526a\u8d34\u677f",
               document.title + " " + (e.bdUrl || n.getPageUrl()))
