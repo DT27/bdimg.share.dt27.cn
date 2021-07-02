@@ -15,7 +15,7 @@ http://bdimg.share.baidu.com/static/api/js/share.js
 ```
 替换为
 ```
-https://bdimg.share.dt27.org/share.js
+https://bdimg.share.dt27.cn/share.js
 ```
 
 

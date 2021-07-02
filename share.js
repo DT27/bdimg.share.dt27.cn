@@ -1,7 +1,7 @@
 /**
  * 百度分享 HTTPS版
  * 
- * https://dt27.org/site/baidu-share-https/
+ * https://dt27.cn/site/baidu-share-https/
  * 
  * DT27 @ 2018-05-24 08:29:40
  */
@@ -11,7 +11,7 @@ window._bd_share_main
     version: "2.0",
     jscfg: {
       domain: {
-        staticUrl: "https://bdimg.share.dt27.org/"
+        staticUrl: "https://bdimg.share.dt27.cn/"
       }
     }
   }),
